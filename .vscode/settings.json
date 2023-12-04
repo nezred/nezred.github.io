@@ -1,0 +1,21 @@
+{
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        ".devcontainer",
+        ".github"
+    ],
+    "cSpell.words": [
+        "htmlproofer",
+        "jemoji"
+    ],
+    "[plaintext]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "files.insertFinalNewline": false
+    }
+}
