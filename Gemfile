@@ -18,3 +18,5 @@ group :development do
   gem 'html-proofer'
   gem 'dotenv'
 end
+
+gem "webrick", "~> 1.8"
