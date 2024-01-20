@@ -1,11 +1,11 @@
 permalink: pretty
 
-url: https://www.althack.dev
+url: https://nezred.github.io
 # baseurl: 
 # title: 
 # author: 
 # description:
-repository: athackst/vscode_website_workspace
+repository: nezred/nezred.github.io
 date_format: "ordinal"
 
 # Use the following plug-ins
@@ -26,7 +26,7 @@ exclude:
   - .gitignore
   - .jekyll-cache/
 
-whitelist: 
+whitelist:
   - jekyll-redirect-from
 
 github:

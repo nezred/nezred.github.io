@@ -19,4 +19,4 @@ group :development do
   gem 'dotenv'
 end
 
-gem "webrick", "~> 1.8"
+gem "webrick"
