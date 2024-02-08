@@ -8,7 +8,7 @@ middle_name: Jiménez
 last_name: Redondo
 #email: none@none.null
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My personal website. CV available if I'm searching for work!
+  My personal website. Contact info, and cool stuff I find goes here :)
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -68,10 +68,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: nezred # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: jmnezred # your X handle
+twitter_username: jmnezred # your X handle
 mastodon_username: masto.ai/@nezred # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jmnezred # your LinkedIn user name
 telegram_username: # your Telegram user name
+matrix_username: '@nezred:envs.net' # your Matrix chat address in the usual format (will be passed through matrix.to for sharing the link)
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -103,7 +104,8 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The social media I check the most are GitHub, Mastodon or Instagram. You can contact me there
+  I don't check twitter, Facebook, or LinkedIn that much, so you wont be able to find me there easily 
+  (although i get emails from LinkedIn if someone contacts me)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -137,7 +139,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo: nezred/nezred.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
