@@ -93,6 +93,8 @@ git checkout -b $DEPLOY_BRANCH
 export JEKYLL_ENV=production
 
 docker compose up --build
+sudo find . -exec chown nezred:nezred {} ';'
+
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
