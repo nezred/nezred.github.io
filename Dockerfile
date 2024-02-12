@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 LABEL MAINTAINER Amir Pourmand
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
+    git \
     locales \
     imagemagick \
     ruby-full \
