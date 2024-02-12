@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Hola! Soy estudiante de informática, actualmente en Suecia de
+Hola 🥰! Soy estudiante de informática, actualmente en Suecia de
 intercambio con la universidad de [MDU](mdu.se), en Västerås. Vivo
 en Ciudad Real, donde estoy estudiando en la [ESI](esi.uclm.es). Mis
 intereses dentro de informática embarcan compiladores, gráficos de
