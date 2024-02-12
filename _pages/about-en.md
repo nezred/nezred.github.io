@@ -1,12 +1,12 @@
 ---
 layout: about
-title: blank
+title: 
 permalink: /
 lang: en
-subtitle: Student at <a href="https://esi.uclm.es/">ESI, UCLM</a>.
+subtitle: <hr />
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -22,6 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi 🥰! I'm a student of computer science, currently living in Sweden for
 ERASMUS+ exchange at [MDU](mdu.se), Västerås. I usually live in Ciudad Real,
-at the ESI, UCLM. I'm interested in computer science, specially
-in compiler theory, graphics, and AI. And I play games, watch shows and
-all that, and collect everything interesting I find on the way.
+at the [ESI, UCLM](esi.uclm.es). I'm interested in computer science, specially
+in compiler theory, graphics, and AI. In my free time I play games, watch shows
+and read, in general trying to find stuff that may have flown under most 
+people's radar.
