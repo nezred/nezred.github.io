@@ -39,4 +39,4 @@ EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
 
-CMD ["/srv/jekyll/bin/deploy"]
+CMD ["/srv/jekyll/bin/deploy", "--no-push"]
