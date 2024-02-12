@@ -70,9 +70,9 @@
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
-  {% if site.x_username %}
-    <meta name="twitter:site" content="@{{ site.x_username }}">
-    <meta name="twitter:creator" content="@{{ site.x_username }}">
+  {% if site.twitter_username %}
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   {% endif %}
 {% endif %}
 
@@ -243,3 +243,9 @@
     }
   </script>
 {% endif %}
+
+<!-- Languages i18n -->
+{% for lang in site.languages %}
+  {% capture lang_href %}{{site.baseurl}}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
+  <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %} />
+{% endfor %}

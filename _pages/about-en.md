@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 
+title: blank
 permalink: /
 lang: en
 subtitle: Student at <a href="https://esi.uclm.es/">ESI, UCLM</a>.
