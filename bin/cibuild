@@ -1,1 +1,8 @@
+#!/usr/bin/env bash
+
+# Build site
 bundle exec jekyll build --lsi
+
+# Purge unused css
+purgecss -c purgecss.config.js
+
