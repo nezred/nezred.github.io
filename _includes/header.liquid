@@ -122,16 +122,17 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-              {{ site.active_lang }}
+              {{ site.data.lang_full_name[site.active_lang] }}
               </a>
               <div class="dropdown-menu" aria-labelledby="languageDropdown">
                 {% for l in site.languages %}
-                  {% if l != site.active_lang %}
-                    {% capture lang_href %}{{site.baseurl}}{% if l != site.default_lang %}/{{ l }}{% endif %}{{ page.url }}{% endcapture %}
-                    <a class="dropdown-item " {% static_href %}href="{{ lang_href }}"{% endstatic_href %}>
-                      {{ l }}
-                    </a>
-                  {% endif %}
+                  {% capture lang_href %}{{site.baseurl}}{% if l != site.default_lang %}/{{ l }}{% endif %}{{ page.url }}{% endcapture %}
+                  <a 
+                    class="dropdown-item {% if l == site.active_lang %}active{% endif %}" 
+                    {% static_href %}href="{{ lang_href }}"{% endstatic_href %}
+                  >
+                    {{ site.data.lang_full_name[l] }}
+                  </a>
                 {% endfor %}
               </div>
             </li>
