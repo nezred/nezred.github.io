@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: repositorios
 description: 
 nav: true
 nav_order: 4
+lang: es
 ---
 <!--
 ## GitHub users

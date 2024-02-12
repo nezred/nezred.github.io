@@ -109,6 +109,36 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+
+          <!-- Language picker -->
+          {% if site.languages.size > 1 %}
+            <li class="nav-item dropdown dropdown-center">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="languageDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+              {{ site.active_lang }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                {% for l in site.languages %}
+                  {% if l != site.active_lang %}
+                    {% capture lang_href %}{{site.baseurl}}{% if l != site.default_lang %}/{{ l }}{% endif %}{{ page.url }}{% endcapture %}
+                    <a class="dropdown-item " {% static_href %}href="{{ lang_href }}"{% endstatic_href %}>
+                      {{ l }}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </li>
+              {% for l in site.languages %} 
+              {% endfor %}
+          {% endif %}
+
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
