@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://nezred.github.io/sitemap.xml
